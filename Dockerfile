@@ -1,8 +1,8 @@
 FROM gapsystem/gap-docker
 
-MAINTAINER Alexander Konovalov <alexander.konovalov@st-andrews.ac.uk>
+MAINTAINER Collin Bleak <cb211@st-andrews.ac.uk>
 
-COPY --chown=1000:1000 . $HOME/unipoly
+COPY --chown=1000:1000 . $HOME/Binder-Demo
 
 RUN sudo pip3 install ipywidgets RISE
 
@@ -12,4 +12,4 @@ RUN jupyter-nbextension enable rise --user --py
 
 USER gap
 
-WORKDIR $HOME/unipoly
+WORKDIR $HOME/Binder-Demo
