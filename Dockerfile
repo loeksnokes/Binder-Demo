@@ -1,6 +1,6 @@
 FROM gapsystem/gap-docker
 
-MAINTAINER Luke Elliott
+MAINTAINER Collin Bleak
 
 COPY --chown=1000:1000 . $HOME/Binder-Demo
 
