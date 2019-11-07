@@ -1,8 +1,5 @@
 # Binder-Demo
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/le27/Binder-Demo/master)
-
-
-LoadPackage("packageManager");
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/loeksnokes/Binder-Demo/master)
 
 InstallPackage("https://github.com/le27/aaa.git");
 
